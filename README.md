@@ -31,7 +31,10 @@
 
 This code essentially calculates statistics for highly-rated movies with a sufficient number of ratings and then combines this data with movie names. The use of Apache Spark allows for efficient distributed data processing, making it suitable for handling large datasets.
 
-Note- we are using a rating system based on a minimum of 1000 users rating the movie and for the top-rated movie the condition is given a minimum of 4 stars as an average rating.
+Note- I'm using a rating system based on a minimum of 1000 users rating the movie and for the top-rated movie the condition is given a minimum of 4 stars as an average rating.
+
+
+Output-
 
 +-------------------------------------------------+
 |movieName                                        |
